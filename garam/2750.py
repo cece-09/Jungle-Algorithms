@@ -15,5 +15,5 @@ for i in range(0, n):
 for i in range(0, n):
     print(m[i])
 
-# 위 방법은 라이브러리 안쓴 하드코딩
+# 위 방법은 라이브러리 안쓴 버블정렬
 
