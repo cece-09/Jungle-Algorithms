@@ -16,6 +16,8 @@ X.sort()
 Y.sort()
 
 max = 0
+
+# TODO 가로 중 최대, 세로 중 최대를 따로 구해서 곱하기
 for i in range(len(X)-1):
     width = X[i+1] - X[i]
     for j in range(len(Y)-1):
