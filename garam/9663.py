@@ -21,7 +21,7 @@ def n_queens(x):
     else:
         for i in range(n):
             row[x] = i
-            if is_promising(x)
-            n_queens(x+1)
+            if is_promising(x):
+                n_queens(x+1)
 
 
