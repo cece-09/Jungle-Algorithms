@@ -1,7 +1,6 @@
 import sys
-
 input = sys.stdin.readline
-temp = 0
+
 n = int(input())
 word_list = []
 for i in range(n):
@@ -10,7 +9,7 @@ for i in range(n):
 set = set(word_list)
 lst = list(set)
 lst.sort()
+lst.sort(key = len)
 
 for i in lst:
     print(i)
-11
