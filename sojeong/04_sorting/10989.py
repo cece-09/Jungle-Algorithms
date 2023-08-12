@@ -1,9 +1,10 @@
-# # Counting Sort
+# Counting Sort
 
-# N = int(input())
+N = int(input())
 
-# for _ in range(N):
-#     num = int(input())
-#     cnt = dict()
+cnt = dict()
+for _ in range(N):
+    num = int(input())
 
-#     if num in cnt.keys():
+    if num in cnt.keys():
+        cnt
