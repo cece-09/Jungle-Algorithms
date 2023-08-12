@@ -1,4 +1,7 @@
 A, B, V = map(int, input().split())
 
 O = A - B
-print((V-A) // O + ((V-A) % O != 0) + 1)
+if V == A:
+    print(1)
+else:
+    print((V-A-1) // O + 2)
