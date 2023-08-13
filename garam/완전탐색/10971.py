@@ -3,7 +3,7 @@ import itertools
 input = sys.stdin.readline
 
 n = int(input())
-W_arr = [list(map(int, input().rstrip().split())) for _ in range(n)]
+W_arr = [list(map(int, input().split())) for _ in range(n)]
 # W_arr = []
 # for i in range(n):
 #     W_arr.append(list(map(int, input().split())))
