@@ -1,9 +1,7 @@
 # 정렬 Sorting Problem
 정렬 알고리즘의 분류
 
-[![Sound of Sorting]
-(https://img.youtube.com/vi/kPRA0W1kECg/maxresdefault.jpg)]
-(https://www.youtube.com/watch?v=kPRA0W1kECg)
+[![Sound of Sorting](https://img.youtube.com/vi/kPRA0W1kECg/maxresdefault.jpg)](https://www.youtube.com/watch?v=kPRA0W1kECg)
 
 
 
