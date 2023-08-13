@@ -1,6 +1,8 @@
 # 정렬 Sorting Problem
 정렬 알고리즘의 분류
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kPRA0W1kECg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 * Stable Sorting : 중복된 원소의 순서가 정렬된 후에도 유지됨이 보장된다.
 * Unstable Sorting : 중복된 원소의 순서가 정렬된 후에 유지됨이 보장되지 않는다.
   <small>K1, .., K2, .. 순서인 배열에서 정렬 후 K1, K2 임이 보장되면 stable, K2, K1일 수 있으면 unstable</small>
