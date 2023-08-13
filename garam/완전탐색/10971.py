@@ -10,11 +10,14 @@ W_arr = [list(map(int, input().rstrip().split())) for _ in range(n)]
 #     W_arr.append(list(map(int, input().split())))
 
 a = [i for i in range(n)]
+# a = [0,1,2,3]
 total_case = list(itertools.permutations(a, n))
+
+# W_arr[i][j]의 조합을 만들어 주기 위함
 
 
 def check_case(W_arr, case):
-    case = case + (case[0],)
+    case = case + (case[0],) # 원래 자리로 돌아가야 하므로 순회니까~ ,위치 때문에 헷갈림
     cost = 0
     for i in range(len(case) - 1):
         if W_arr[case[i]][case[i + 1]] == 0:
