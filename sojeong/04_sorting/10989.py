@@ -1,10 +1,12 @@
 # Counting Sort
-
+import sys
 N = int(input())
 
-cnt = dict()
+C = [0] * 10000
 for _ in range(N):
-    num = int(input())
+    num = int(sys.stdin.readline())
+    C[num-1] += 1
 
-    if num in cnt.keys():
-        cnt
+for i in range(10000):
+    for j in range(C[i]):
+        print(i+1)
