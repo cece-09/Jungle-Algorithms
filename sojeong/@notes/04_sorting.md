@@ -1,9 +1,8 @@
 # 정렬 Sorting Problem
 정렬 알고리즘의 분류
 
-[![Sound of Sorting](https://img.youtube.com/vi/kPRA0W1kECg/maxresdefault.jpg)](https://www.youtube.com/watch?v=kPRA0W1kECg)
-
-[![Video Label](http://img.youtube.com/vi/kPRA0W1kECg/0.jpg)](https://youtu.be/kPRA0W1kECg)
+[![Sound of Sorting](http://img.youtube.com/vi/kPRA0W1kECg/0.jpg)](https://youtu.be/kPRA0W1kECg)
+<small>👆 Sound of Sorting</small>
 
 
 * Stable Sorting : 중복된 원소의 순서가 정렬된 후에도 유지됨이 보장된다.
