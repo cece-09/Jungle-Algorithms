@@ -2,7 +2,7 @@
 
 
 [![Sound of Sorting](http://img.youtube.com/vi/kPRA0W1kECg/0.jpg)](https://youtu.be/kPRA0W1kECg)
-
+<br/>
 <small>👆 Sound of Sorting</small>
 
 정렬 알고리즘의 분류
