@@ -39,7 +39,7 @@ def dfs(i, arr):
         # 나누기
         if div > 0:
             div -= 1
-            dfs(i + 1, int(arr / data[i]))
+            dfs(i + 1, int(arr // data[i]))
             div += 1
 
 dfs(1, data[0])
