@@ -4,15 +4,13 @@ import sys
 input = sys.stdin.readline
 a, b, c = map(int, input().split())
 
-
-def multi(a, n):
-    if n == 1:
+def multi(a, b):
+    if b == 1:
         return a % c
     else:
-        temp = multi(a, n // 2)
-        if n % 2 == 0:                   # 짝수라면
+        temp = multi(a, b // 2)
+        if b % 2 == 0:                   # 짝수라면
             return (temp * temp) % c
-
         else:                            # 홀수라면'
             return (temp * temp * a) % c
         
