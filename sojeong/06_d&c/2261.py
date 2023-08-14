@@ -12,8 +12,9 @@ def closest_pair(s, e):
     if e - s == 1:
         return
     if e - s == 2:
-        if mindist == None or mindist > distance(D[s], D[e-1]):
-            mindist = distance(D[s], D[e-1])
+        d = distance(D[I[s]], D[I[e-1]])
+        if mindist == None or mindist > d:
+            mindist = d
         return
 
     # x좌표의 mid값 구하기
@@ -24,7 +25,7 @@ def closest_pair(s, e):
     d = mindist
 
     # mid-d < x < mid+d 점 (중간 영역) 조사
-    for i in range(mid, s, -1):
+    for i in range(mid, s-1, -1):
         if D[I[mid]][0] - D[I[i]][0] > math.sqrt(d):
             break
     for j in range(mid, e):
@@ -32,7 +33,7 @@ def closest_pair(s, e):
             break
 
     # i~j 중간 영역에서의 최근접점 조사
-    mids = sorted(I[i:j], key=lambda d: D[I[d]][1])
+    mids = sorted(I[i:j+1], key=lambda d: D[d][1], reverse=True)
     for p in range(len(mids)-1):
         for q in range(p+1, len(mids)):
             if D[mids[q]][1] - D[mids[p]][1] >= math.sqrt(d):
