@@ -1,11 +1,10 @@
 import sys
-
 input = sys.stdin.readline
+
 n = int(input())
 arr = sorted(list(map(int, input().split())))
 m = int(input())
 target_arr = list(map(int, input().split()))
-
 
 def binary_search(target_num, data):
     start = 0
