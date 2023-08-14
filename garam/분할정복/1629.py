@@ -13,7 +13,10 @@ def multi(a, n):
         if n % 2 == 0:                   # 짝수라면
             return (temp * temp) % c
 
-        else:                            # 홀수라면
+        else:                            # 홀수라면'
             return (temp * temp * a) % c
         
 print(multi(a,b))
+
+
+
