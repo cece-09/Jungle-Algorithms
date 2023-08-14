@@ -13,7 +13,6 @@ def mtxmulti(A, B):
 def solve(b):
     global mtx
     if b == 1:
-
         return mtx
     tmp = solve(b//2)
     if b % 2 == 0:
