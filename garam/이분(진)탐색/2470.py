@@ -1,9 +1,7 @@
 # 두 용액 투포인터 활용
 import sys
 import itertools
-
 # from itertools import permutations
-
 input = sys.stdin.readline
 
 n = int(input())

@@ -7,7 +7,7 @@ x_arr = list(int(input()) for _ in range(n))
 
 # start와 end값을 무엇으로 할지 결정하는게 가장 어렵다. 내가 무엇을 구하고 싶은지 명확하게 하는게 힘들어
 start = min(x_arr)
-end = start + k
+end = start + k # 최대값을 왜 이걸로 하는지 궁금해요~
 ans = 0
 
 while start <= end:

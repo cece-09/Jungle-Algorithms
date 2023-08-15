@@ -7,11 +7,6 @@ start = 1
 end = coor[N - 1] - coor[0]
 ans = 0
 
-print(N)
-print(C)
-print(coor)
-
-
 while start <= end:
     mid = (start + end) // 2
     current = coor[0]
