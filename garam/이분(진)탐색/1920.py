@@ -20,6 +20,8 @@ def binary_search(target_num, data):
             start = mid + 1
     return False
 
+# 톱길이랑 잘린 나무의 길이는 반비레
+
 
 for num in target_arr:
     if binary_search(num, arr):
