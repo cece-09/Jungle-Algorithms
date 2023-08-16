@@ -1,19 +1,10 @@
-import sys
-
-input = sys.stdin.readline
-hansu = 0
-
-# n = list(map(int, input().strip()))
-
-n = int(input().strip())
-for i in range(1, n + 1):
+x = input()
+cnt = 0
+for i in range(1, int(x) + 1):
     if i < 100:
-        hansu += 1
-    # print(hansu)
+        cnt += 1
     elif i >= 100:
-        # if int(str(i)[0]) - int(str(i)[1]) == int(str(i)[1]) - int(str(i)[2]):
-        a = int(str(i)[0]) - int(str(i)[1])
-        b = int(str(i)[1]) - int(str(i)[2])
-        if a == b:
-            hansu += 1
-print(hansu)
+        i = str(i)
+        if int(i[2]) - int(i[1]) == int(i[1]) - int(i[0]):
+            cnt += 1
+print(cnt)
